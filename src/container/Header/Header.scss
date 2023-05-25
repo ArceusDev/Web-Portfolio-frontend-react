@@ -175,9 +175,13 @@
   position: relative;
 
   img {
-    width: 100%;
-    object-fit: contain;
+    left: 1;
+    right: 0;
+    bottom: 0;
+    width: 120%;
+    // object-fit: contain;
     z-index: 1;
+
   }
 
   .overlay_circle {
@@ -190,7 +194,7 @@
     height: 90%;
   }
 
-  @media screen and (max-width: 1200px) {
-    margin: 2rem 0;
-  }
+  // @media screen and (max-width: 1200px) {
+  //   margin: 2rem 0;
+  // }
 }
